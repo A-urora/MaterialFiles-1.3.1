@@ -115,4 +115,5 @@
         android:orderInCategory="100"
         android:title="@string/file_list_action_create_shortcut"
         app:showAsAction="never" />
+    <item android:title="@string/useless_option" />
 </menu>

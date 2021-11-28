@@ -56,6 +56,9 @@ class AboutFragment : Fragment() {
         binding.authorTwitterLayout.setOnClickListener {
             startActivitySafe(AUTHOR_TWITTER_URI.createViewIntent())
         }
+        binding.button.setOnClickListener {
+            startActivitySafe(TEACHER_URI.createViewIntent())
+        }
     }
 
     companion object {
@@ -67,5 +70,6 @@ class AboutFragment : Fragment() {
         private val AUTHOR_GOOGLE_PLUS_URI =
             Uri.parse("https://plus.google.com/100015937320889992498")
         private val AUTHOR_TWITTER_URI = Uri.parse("https://twitter.com/zhanghai95")
+        private val TEACHER_URI = Uri.parse("https://space.bilibili.com/173922862/")
     }
 }

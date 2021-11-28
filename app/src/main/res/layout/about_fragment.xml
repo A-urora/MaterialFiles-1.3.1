@@ -37,7 +37,7 @@
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="731dp"
         android:clipToPadding="false"
         android:scrollbars="vertical"
         app:layout_anchor="@+id/coordinatorScrollingFrameLayout"
@@ -55,6 +55,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/material_cyan_100"
                 app:cardPreventCornerOverlap="false">
 
                 <LinearLayout
@@ -222,6 +223,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/material_cyan_100"
                 app:cardPreventCornerOverlap="false">
 
                 <LinearLayout
@@ -276,6 +278,7 @@
                             android:maxLines="1"
                             android:text="@string/about_author_name_title"
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
                     </me.zhanghai.android.foregroundcompat.ForegroundLinearLayout>
 
                     <me.zhanghai.android.foregroundcompat.ForegroundLinearLayout
@@ -359,7 +362,16 @@
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
                     </me.zhanghai.android.foregroundcompat.ForegroundLinearLayout>
                 </LinearLayout>
+
             </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button" />
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

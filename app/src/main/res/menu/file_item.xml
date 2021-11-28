@@ -7,6 +7,7 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:title="@string/sample_button" />
     <item
         android:id="@+id/action_open_with"
         android:title="@string/file_item_action_open_with" />
